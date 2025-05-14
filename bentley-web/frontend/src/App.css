@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: #f8f9fa;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 
 .navbar {
@@ -169,25 +169,304 @@ body {
 
 .home-content{
   display: flex;
+  overflow-x: hidden;
+  margin-left: 4rem;
+}
+
+.cont-1 img{
+  margin-top: 1rem;
 }
 
 .cont-2 img{
-  max-width: 250px;
-  margin-top: 26rem;
+  width: 31rem;
+  margin-top: 27rem;
+  transform: translateX(-50rem);
 }
 
 .cont-3 img{
   max-width: 250px;
-  margin-top: 26rem;
-  margin-left: 10px;
+  margin-top: 27rem;
+  transform: translateX(-49rem);
 }
 
 .cont-4 img{
   max-width: 250px;
-  margin-top: 26rem;
+  margin-top: 27rem;
+  transform: translateX(-48rem);
 }
 
 .cont-5 img{
-  max-width: 250px;
-  margin-top: 26rem;
+  width: 36.7rem;
+  margin-top: 27rem;
+  transform: translateX(-46.5rem);
+}
+
+.text{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  padding-left: 10rem;
+  transform: translateX(-100rem);
+}
+
+.deschis{
+  margin-left: -98rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.deschis-2{
+  margin-left: -37rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transform: translateX(-7rem);
+  margin-top: 12rem;
+}
+
+.about-content{
+  display: flex;
+}
+
+.media img{
+  width: 35rem;
+  margin-left: 36rem;
+  margin-top: 3rem;
+}
+
+.sec-media img{
+  width: 45rem;
+  margin-top: 12rem;
+  transform: translateX(-2rem);
+}
+
+.text-about {
+  margin-left: -106rem;
+  margin-top: 10rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+
+.desc-about{
+  margin-top: -35rem;
+  margin-left: 87rem;
+  transform: translateX(-84rem);
+  font-size: 1.5rem;
+}
+
+
+.text-list p  {
+  padding: 60px;
+  margin: 6px -2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transform: translateX(-5rem);
+  width: 1000px;
+  color: #555;
+  border-left: 4px solid transparent;
+  transition: all 0.3s;
+}
+
+.side-ewb img{
+  margin-top: 1rem;
+  width: 15rem;
+}
+.side-spur img{
+  margin-top: 10rem;
+  width: 15rem;
+  margin-left: -16rem;
+}
+
+.side-azure img{
+  margin-top: 20rem;
+  width: 15rem;
+  margin-left: -18rem;
+}
+
+.side-gt img{
+  margin-top: 30rem;
+  width: 15rem;
+  margin-left: -20rem;
+}
+
+
+.text-list p:hover {
+  color: #000000;
+  font-weight: 700;
+  border-left: 2px solid #000000;
+}
+
+.side-content-model {
+  font-size: 1.1rem;
+  padding: 1rem;
+  margin-top: -3rem;
+  margin-left: 25rem;
+}
+
+.ewb {
+  position: relative;
+  width: 600px; /* Atur lebar container */
+  height: auto;
+  margin-left: auto; /* Dorong container ke kanan */
+  margin-right: -1rem;
+  margin-top: 9rem;
+}
+
+.text-ewb{
+  font-size: 13px;
+  width: 19rem;
+  transform: translateX(-33rem) translateY(-3rem);
+}
+
+.text-ewb h1{
+  font-weight: 500;
+}
+
+.bg-ewb img {
+  width: 50rem;
+  margin-left: -12rem;
+  margin-top: -10rem;
+  display: block;
+}
+
+.front-ewb {
+  position: absolute;
+  top: 20%;         /* Sesuaikan posisi vertikal */
+  left: -60px;      /* Keluar ke kiri */
+  z-index: 2;       /* Tampil di atas background */
+}
+
+.front-ewb img {
+  width: 57rem;     /* Atur lebar mobil depan */
+  height: auto;
+  margin-left: -22rem;
+  margin-top: 6rem;
+}
+
+.spur {
+  position: relative;
+  width: 600px; /* Atur lebar container */
+  height: auto;
+  margin-left: auto; /* Dorong container ke kanan */
+  margin-right: -1rem;
+  margin-top: 9rem;
+}
+
+.text-spur{
+  font-size: 13px;
+  width: 19rem;
+  transform: translateX(-33rem) translateY(-3rem);
+}
+
+.text-spur h1{
+  font-weight: 500;
+}
+
+.bg-spur img {
+  width: 50rem;
+  margin-left: -12rem;
+  margin-top: -10rem;
+  display: block;
+}
+
+.front-spur {
+  position: absolute;
+  top: 20%;         /* Sesuaikan posisi vertikal */
+  left: -60px;      /* Keluar ke kiri */
+  z-index: 2;       /* Tampil di atas background */
+}
+
+.front-spur img {
+  width: 57rem;     /* Atur lebar mobil depan */
+  height: auto;
+  margin-left: -22rem;
+  margin-top: 6rem;
+}
+
+.gtc {
+  position: relative;
+  width: 600px; /* Atur lebar container */
+  height: auto;
+  margin-left: auto; /* Dorong container ke kanan */
+  margin-right: -1rem;
+  margin-top: 9rem;
+}
+
+.text-gtc{
+  font-size: 13px;
+  width: 19rem;
+  transform: translateX(-33rem) translateY(-3rem);
+}
+
+.text-gtc h1{
+  font-weight: 500;
+}
+
+.bg-gtc img {
+  width: 50rem;
+  margin-left: -12rem;
+  margin-top: -11rem;
+  display: block;
+}
+
+.front-gtc {
+  position: absolute;
+  top: 20%;         /* Sesuaikan posisi vertikal */
+  left: -60px;      /* Keluar ke kiri */
+  z-index: 2;       /* Tampil di atas background */
+}
+
+.front-gtc img {
+  width: 57rem;     /* Atur lebar mobil depan */
+  height: auto;
+  margin-left: -22rem;
+  margin-top: 6rem;
+}
+
+.gt {
+  position: relative;
+  width: 600px; /* Atur lebar container */
+  height: auto;
+  margin-left: auto; /* Dorong container ke kanan */
+  margin-right: -1rem;
+  margin-top: 9rem;
+}
+
+.text-gt{
+  font-size: 13px;
+  width: 19rem;
+  transform: translateX(-33rem) translateY(-3rem);
+}
+
+.text-gt h1{
+  font-weight: 500;
+}
+
+.bg-gt img {
+  width: 50rem;
+  margin-left: -12rem;
+  margin-top: -10rem;
+  display: block;
+}
+
+.front-gt {
+  position: absolute;
+  top: 20%;         /* Sesuaikan posisi vertikal */
+  left: -60px;      /* Keluar ke kiri */
+  z-index: 2;       /* Tampil di atas background */
+}
+
+.front-gt img {
+  width: 57rem;     /* Atur lebar mobil depan */
+  height: auto;
+  margin-left: -22rem;
+  margin-top: 6rem;
+}
+
+.line{
+  width: 5px;
+  height: 700px;
+  margin-top: -42rem;
+  transform: translateX(43rem) translateY(48rem);
+background-color: #909090;
 }
